@@ -54,3 +54,110 @@
     background-color: red;
     color: white;
 }
+.service-container{
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+
+
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+.box{
+    padding:50px;
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+}
+.service-description{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    gap:5px;
+    margin-top: 5px;
+}
+.details-btn{
+    color: red;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap:20px;
+    align-items: center;    
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px red solid;
+    padding-right: 20px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+    border-right: 2px gray solid;
+    padding: 5px;
+    
+}
+.appoinment-container{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    margin-top: -30px;
+    border-radius: 10px;
+    align-items: center;
+    gap:5px;
+}
+.blog-title{
+    color: black;
+    text-align: center;
+    margin: 50px;
+}
+.blog-des{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -30px;
+}
+.card-one{
+
+    width: 220px;
+    height: 370px;
+    background-color: white;
+    color: black;
+    box-shadow: 4px 8px 4px gray;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    gap: 30px;
+    margin-top: 30px;
+}
